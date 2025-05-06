@@ -1,0 +1,91 @@
+“Papyr Early‑Access Landing Page — FINAL”
+Project
+Build a responsive, single‑page website for Papyr that
+1️⃣ frames the problem,
+2️⃣ presents Papyr’s solution —including its 24/7 AI tutor—and
+3️⃣ converts visitors into wait‑list subscribers.
+Primary Audience: K‑12 & higher‑ed teachers, school administrators, ed‑tech investors, and engaged parents.
+
+1. Brand & Visual Style
+Logo: Use the transparent paper‑plane + “Papyr” PNG at 170 px height.
+
+Color Palette
+
+Canvas White #F9FAFB (background)
+
+Ink Black #111827 (text)
+
+Paper‑Plane Blue #3B82F6 (CTAs & links)
+
+Typography
+
+Headlines — Poppins Semibold, 44 → 36 px responsive
+
+Body — Inter Regular, 18 → 16 px responsive
+
+Imagery: Minimal line‑art icons (paper plane in motion, dashboards, notebooks). No stock photos.
+
+2. Page Structure & Copy
+2.1 Hero Section
+Headline: “No student left behind.”
+
+Subhead: “Papyr taps the data already inside your LMS to pinpoint every learner’s gaps, personalize practice, and surface insights—in real time. An AI tutor with full context of each student’s progress is now on call 24 / 7.”
+
+Primary CTA Button: “Join the Waitlist” (smooth‑scrolls to signup form).
+
+2.2 Problem → Solution Split (two‑column)
+Problem (left)	Papyr Solution (right)
+• Teachers don’t have the bandwidth or tools to close every learning gap.
+• Students often fall behind quietly until midterms.
+• Existing LMS add‑ons don’t personalize at scale.	• Papyr spotlights each student’s learning gaps using existing LMS data.
+• AI autogrades assignments and adapts practice instantly.
+• Real‑time dashboards reveal class‑wide pain points.
+• Students can chat with a 24 / 7 AI tutor that “knows” their coursework, grades, and stumbling blocks—like having the teacher beside them at any hour.
+
+2.3 Feature Cards (icon + headline + 25‑word blurb each)
+Adaptive Practice Generator — creates personalized quizzes and homework in one click.
+
+Real‑Time Error Insights — flags misconceptions the moment they appear.
+
+24 / 7 AI Tutor — chat‑based help that draws on each student’s assignments, grades, and class timeline.
+
+Seamless LMS Integration — works with Canvas, Schoology, Google Classroom, and more.
+
+2.4 Social Proof Carousel
+“Papyr saves me two hours a day and pinpoints exactly where my 8th‑graders struggle.” — Beta Teacher
+“The AI tutor feels like I’m texting my teacher at midnight.” — Pilot Student
+“We spotted class‑wide gaps before the exam week chaos.” — Department Chair
+
+2.5 Early‑Access CTA Block
+Centered email input + GDPR checkbox.
+
+Button copy: “Notify Me When Papyr Launches.”
+
+Microcopy: “One email when we open the beta—zero spam.”
+
+2.6 Footer
+Tiny paper‑plane icon that lifts on hover.
+
+Links: FAQ · Privacy · X/Twitter · LinkedIn.
+
+3. Functional Requirements
+Responsive: Fluid grid from 320 px (mobile) to 1440 px (desktop).
+
+Accessibility: WCAG 2.1 AA—semantic HTML5, ARIA labels, color‑contrast‑checked.
+
+Email Capture: POST the form to https://api.buttondown.email/v1/sources/papyr_waitlist (swap if you’re using another service).
+
+Analytics Stub: Insert comment <!-- GA4 / Plausible here -->.
+
+4. Tone & Voice
+Friendly but authoritative—think Stripe docs meets Duolingo blog.
+
+Short sentences, no jargon, active verbs.
+
+Max 40 words per paragraph.
+
+5. Output Instructions
+Deliverable: A single minified index.html with embedded Tailwind CSS and vanilla JS (no external JS libs besides Google Fonts for Poppins & Inter).
+
+Include clear section comments (<!-- Hero -->, <!-- Feature Cards -->, etc.) for easy edits.
+

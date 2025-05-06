@@ -1,0 +1,23 @@
+- [X] Review the uploaded file to understand its content.
+- [X] Clarify if the user has any modifications or special requests for the landing page (logo received).
+- [X] Discuss deployment options and address user's questions about editing/taking down the website if deployed. User chose deployment by Manus.
+- [X] Clarify logo format: The brief specifies a transparent PNG, and a PNG has now been provided (/home/ubuntu/upload/logo.png).
+- [X] Incorporate the provided PNG logo (/home/ubuntu/upload/logo.png) into the landing page design, ensuring it's 170px in height.
+- [X] Create the responsive, single-page website for Papyr based on the provided specifications and user clarifications.
+- [X] Find or create minimal line-art icons (paper plane in motion, dashboards, notebooks) or use placeholders (used Unicode placeholders, then updated with SVGs).
+- [X] Ensure the website meets all functional requirements, including responsiveness (320px-1440px), accessibility (WCAG 2.1 AA), and analytics stub.
+- [X] Adhere to the specified brand, visual style (colors, typography, imagery), page structure, copy, tone, and voice.
+- [X] Develop a single minified index.html with Tailwind CSS (switched to CDN due to compilation issues) and vanilla JS (using Google Fonts for Poppins & Inter).
+- [X] Include clear section comments in the HTML (e.g., <!-- Hero -->).
+- [X] Validate the created website against the requirements.
+- [X] Deploy the website to a temporary public URL (deployed to permanent URL).
+- [X] Send the public URL to the user and explain that they can request changes or takedown from me.
+- [X] Review provided Buttondown form code and instructions.
+- [X] Clarify Buttondown form requirements (GDPR checkbox removed, no redirect, on-page success message).
+- [X] Integrate working Buttondown email-capture form, replacing the temporary stub form.
+- [X] Ensure the Buttondown form correctly tags subscribers as "waitlist" (via hidden input).
+- [X] Style the Buttondown form and success/error messages to match Papyr's branding.
+- [X] Implement JavaScript for Buttondown form submission to handle on-page success/error messages without redirect.
+- [X] Validate Buttondown form functionality and branding.
+- [X] Redeploy landing page with the updated Buttondown form.
+- [X] Remove footer links (FAQ, Privacy, X/Twitter, LinkedIn) as requested.

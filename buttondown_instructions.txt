@@ -1,0 +1,89 @@
+<!-- Wait‑list (Buttondown) -->
+
+<form
+
+action="https://buttondown.com/api/emails/embed-subscribe/Papyr"
+
+method="POST"
+
+class="mx-auto flex w-full max-w-md gap-2"
+
+>
+
+<!-- Accessible label (screen‑readers only) -->
+
+<label class="sr-only" for="bd-email">Email</label>
+
+<!-- Email input -->
+
+<input
+
+id="bd-email"
+
+type="email"
+
+name="email"
+
+placeholder="you@example.com"
+
+required
+
+class="flex-1 rounded border px-3 py-2 text-base"
+
+/>
+
+<!-- Auto‑tag everyone for future segmentation -->
+
+<input type="hidden" name="tag" value="waitlist" />
+
+<!-- Tells Buttondown this is an embedded form (no branding) -->
+
+<input type="hidden" name="embed" value="1" />
+
+<!-- Keep users on Papyr after submission -->
+
+<input type="hidden" name="redirect_to" value="https://papyr.ai/thanks"
+/>
+
+<!-- CTA button -->
+
+<button
+
+type="submit"
+
+class="rounded bg-[#3B82F6] px-4 py-2 font-semibold text-white
+hover:bg-blue-600 transition"
+
+>
+
+Notify Me
+
+</button>
+
+</form>
+
+<!--
+
+- This form needs no JavaScript: Buttondown handles storage,
+double‑opt‑in,
+
+and the redirect.
+
+- “tag=waitlist” lets you filter these early‑access sign‑ups later.
+
+- Change redirect_to if you prefer a different thank‑you URL.
+
+-->
+
+<!--
+
+1. Deploy preview ↗ open landing page.
+
+2. Submit a test email → confirm you land on /thanks.
+
+3. In Buttondown → Subscribers, the address appears in “unconfirmed.”
+
+4. Click the confirmation link in the message you receive → status flips
+to “active.”
+
+-->
